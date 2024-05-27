@@ -1,0 +1,109 @@
+2024-05-27T10:39:37.869+03:00  INFO 15056 --- [BankApp] [main] com.coop.bank.BankAppApplication         : Starting BankAppApplication using Java 17.0.2 with PID 15056 (C:\Users\bobby\eclipse-workspace\Bank of Mufasa\BankApp\target\classes started by bobby in C:\Users\bobby\eclipse-workspace\Bank of Mufasa\BankApp)
+2024-05-27T10:39:37.873+03:00  INFO 15056 --- [BankApp] [main] com.coop.bank.BankAppApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-05-27T10:39:39.246+03:00  INFO 15056 --- [BankApp] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-27T10:39:39.370+03:00  INFO 15056 --- [BankApp] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 112 ms. Found 1 JPA repository interface.
+2024-05-27T10:39:40.345+03:00  INFO 15056 --- [BankApp] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-27T10:39:40.365+03:00  INFO 15056 --- [BankApp] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-27T10:39:40.365+03:00  INFO 15056 --- [BankApp] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-05-27T10:39:40.478+03:00  INFO 15056 --- [BankApp] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-27T10:39:40.479+03:00  INFO 15056 --- [BankApp] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2527 ms
+2024-05-27T10:39:40.539+03:00  INFO 15056 --- [BankApp] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-27T10:39:40.904+03:00  INFO 15056 --- [BankApp] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-05-27T10:39:40.908+03:00  INFO 15056 --- [BankApp] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-27T10:39:40.935+03:00  INFO 15056 --- [BankApp] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-05-27T10:39:41.205+03:00  INFO 15056 --- [BankApp] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-27T10:39:41.316+03:00  INFO 15056 --- [BankApp] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-05-27T10:39:41.386+03:00  INFO 15056 --- [BankApp] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-27T10:39:42.108+03:00  INFO 15056 --- [BankApp] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-27T10:39:42.204+03:00  WARN 15056 --- [BankApp] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-05-27T10:39:43.764+03:00  INFO 15056 --- [BankApp] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-27T10:39:43.882+03:00  INFO 15056 --- [BankApp] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-27T10:39:44.339+03:00  WARN 15056 --- [BankApp] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-27T10:39:45.917+03:00  INFO 15056 --- [BankApp] [main] c.r.stream.impl.StreamEnvironment        : Connecting to localhost with guest user, assuming development environment
+2024-05-27T10:39:45.918+03:00  INFO 15056 --- [BankApp] [main] c.r.stream.impl.StreamEnvironment        : Using address resolver to always connect to localhost
+2024-05-27T10:39:46.350+03:00  INFO 15056 --- [BankApp] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-05-27T10:39:46.377+03:00  INFO 15056 --- [BankApp] [main] com.coop.bank.BankAppApplication         : Started BankAppApplication in 9.476 seconds (process running for 11.045)
+2024-05-27T10:41:10.996+03:00  INFO 6632 --- [BankApp] [main] com.coop.bank.BankAppApplicationTests    : Starting BankAppApplicationTests using Java 17.0.2 with PID 6632 (started by bobby in C:\Users\bobby\eclipse-workspace\Bank of Mufasa\BankApp)
+2024-05-27T10:41:10.999+03:00  INFO 6632 --- [BankApp] [main] com.coop.bank.BankAppApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2024-05-27T10:41:12.081+03:00  INFO 6632 --- [BankApp] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-27T10:41:12.193+03:00  INFO 6632 --- [BankApp] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 99 ms. Found 1 JPA repository interface.
+2024-05-27T10:41:13.028+03:00  INFO 6632 --- [BankApp] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-27T10:41:13.154+03:00  INFO 6632 --- [BankApp] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-05-27T10:41:13.240+03:00  INFO 6632 --- [BankApp] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-27T10:41:14.062+03:00  INFO 6632 --- [BankApp] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-27T10:41:14.119+03:00  INFO 6632 --- [BankApp] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-27T10:41:14.488+03:00  INFO 6632 --- [BankApp] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-05-27T10:41:14.493+03:00  INFO 6632 --- [BankApp] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-27T10:41:14.558+03:00  WARN 6632 --- [BankApp] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-05-27T10:41:16.301+03:00  INFO 6632 --- [BankApp] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-27T10:41:16.464+03:00  INFO 6632 --- [BankApp] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-27T10:41:17.076+03:00  WARN 6632 --- [BankApp] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-27T10:41:18.100+03:00  INFO 6632 --- [BankApp] [main] c.r.stream.impl.StreamEnvironment        : Connecting to localhost with guest user, assuming development environment
+2024-05-27T10:41:18.101+03:00  INFO 6632 --- [BankApp] [main] c.r.stream.impl.StreamEnvironment        : Using address resolver to always connect to localhost
+2024-05-27T10:41:18.323+03:00  INFO 6632 --- [BankApp] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-05-27T10:41:18.431+03:00  INFO 6632 --- [BankApp] [main] com.coop.bank.BankAppApplicationTests    : Started BankAppApplicationTests in 7.881 seconds (process running for 10.295)
+2024-05-27T10:41:19.909+03:00  INFO 6632 --- [BankApp] [main] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
+2024-05-27T10:41:19.910+03:00  INFO 6632 --- [BankApp] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-05-27T10:41:19.913+03:00  INFO 6632 --- [BankApp] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2024-05-27T10:41:20.040+03:00  WARN 6632 --- [BankApp] [main] o.s.web.servlet.PageNotFound             : No mapping for GET /api/customers/1
+2024-05-27T10:41:20.061+03:00  WARN 6632 --- [BankApp] [main] o.s.web.servlet.PageNotFound             : No endpoint GET /api/customers/1.
+2024-05-27T10:41:20.126+03:00  INFO 6632 --- [BankApp] [main] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
+2024-05-27T10:41:20.127+03:00  INFO 6632 --- [BankApp] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-05-27T10:41:20.127+03:00  INFO 6632 --- [BankApp] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2024-05-27T10:41:20.131+03:00  WARN 6632 --- [BankApp] [main] o.s.web.servlet.PageNotFound             : No mapping for GET /api/customers/1/accounts
+2024-05-27T10:41:20.132+03:00  WARN 6632 --- [BankApp] [main] o.s.web.servlet.PageNotFound             : No endpoint GET /api/customers/1/accounts.
+2024-05-27T10:41:20.178+03:00  INFO 6632 --- [BankApp] [main] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
+2024-05-27T10:41:20.179+03:00  INFO 6632 --- [BankApp] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-05-27T10:41:20.180+03:00  INFO 6632 --- [BankApp] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2024-05-27T10:41:20.186+03:00  WARN 6632 --- [BankApp] [main] o.s.web.servlet.PageNotFound             : No mapping for PUT /api/customers/1/accounts/1
+2024-05-27T10:41:20.187+03:00  WARN 6632 --- [BankApp] [main] o.s.web.servlet.PageNotFound             : No endpoint PUT /api/customers/1/accounts/1.
+2024-05-27T10:41:20.235+03:00  INFO 6632 --- [BankApp] [main] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
+2024-05-27T10:41:20.236+03:00  INFO 6632 --- [BankApp] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-05-27T10:41:20.237+03:00  INFO 6632 --- [BankApp] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2024-05-27T10:41:20.240+03:00  WARN 6632 --- [BankApp] [main] o.s.web.servlet.PageNotFound             : No mapping for GET /api/customers
+2024-05-27T10:41:20.242+03:00  WARN 6632 --- [BankApp] [main] o.s.web.servlet.PageNotFound             : No endpoint GET /api/customers.
+2024-05-27T10:41:20.276+03:00  INFO 6632 --- [BankApp] [main] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
+2024-05-27T10:41:20.277+03:00  INFO 6632 --- [BankApp] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-05-27T10:41:20.278+03:00  INFO 6632 --- [BankApp] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2024-05-27T10:41:20.281+03:00  WARN 6632 --- [BankApp] [main] o.s.web.servlet.PageNotFound             : No mapping for PUT /api/customers/1
+2024-05-27T10:41:20.282+03:00  WARN 6632 --- [BankApp] [main] o.s.web.servlet.PageNotFound             : No endpoint PUT /api/customers/1.
+2024-05-27T10:41:20.318+03:00  INFO 6632 --- [BankApp] [main] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
+2024-05-27T10:41:20.319+03:00  INFO 6632 --- [BankApp] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-05-27T10:41:20.320+03:00  INFO 6632 --- [BankApp] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2024-05-27T10:41:20.323+03:00  WARN 6632 --- [BankApp] [main] o.s.web.servlet.PageNotFound             : No mapping for POST /api/customers
+2024-05-27T10:41:20.324+03:00  WARN 6632 --- [BankApp] [main] o.s.web.servlet.PageNotFound             : No endpoint POST /api/customers.
+2024-05-27T10:41:20.350+03:00  INFO 6632 --- [BankApp] [main] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
+2024-05-27T10:41:20.350+03:00  INFO 6632 --- [BankApp] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-05-27T10:41:20.351+03:00  INFO 6632 --- [BankApp] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2024-05-27T10:41:20.354+03:00  WARN 6632 --- [BankApp] [main] o.s.web.servlet.PageNotFound             : No mapping for POST /api/customers/1/accounts
+2024-05-27T10:41:20.355+03:00  WARN 6632 --- [BankApp] [main] o.s.web.servlet.PageNotFound             : No endpoint POST /api/customers/1/accounts.
+2024-05-27T10:41:20.379+03:00  INFO 6632 --- [BankApp] [main] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
+2024-05-27T10:41:20.379+03:00  INFO 6632 --- [BankApp] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-05-27T10:41:20.379+03:00  INFO 6632 --- [BankApp] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2024-05-27T10:41:20.381+03:00  WARN 6632 --- [BankApp] [main] o.s.web.servlet.PageNotFound             : No mapping for DELETE /api/customers/1
+2024-05-27T10:41:20.381+03:00  WARN 6632 --- [BankApp] [main] o.s.web.servlet.PageNotFound             : No endpoint DELETE /api/customers/1.
+2024-05-27T10:41:21.955+03:00  INFO 6632 --- [BankApp] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-27T10:41:21.963+03:00  INFO 6632 --- [BankApp] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-27T10:41:21.969+03:00  INFO 6632 --- [BankApp] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-27T10:42:59.802+03:00  INFO 21564 --- [BankApp] [main] com.coop.bank.BankAppApplicationTests    : Starting BankAppApplicationTests using Java 17.0.2 with PID 21564 (started by bobby in C:\Users\bobby\eclipse-workspace\Bank of Mufasa\BankApp)
+2024-05-27T10:42:59.806+03:00  INFO 21564 --- [BankApp] [main] com.coop.bank.BankAppApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2024-05-27T10:43:01.099+03:00  INFO 21564 --- [BankApp] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-27T10:43:01.275+03:00  INFO 21564 --- [BankApp] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 158 ms. Found 1 JPA repository interface.
+2024-05-27T10:43:02.135+03:00  INFO 21564 --- [BankApp] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-27T10:43:02.263+03:00  INFO 21564 --- [BankApp] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-05-27T10:43:02.348+03:00  INFO 21564 --- [BankApp] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-27T10:43:03.083+03:00  INFO 21564 --- [BankApp] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-27T10:43:03.146+03:00  INFO 21564 --- [BankApp] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-27T10:43:03.559+03:00  INFO 21564 --- [BankApp] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-05-27T10:43:03.562+03:00  INFO 21564 --- [BankApp] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-27T10:43:03.616+03:00  WARN 21564 --- [BankApp] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-05-27T10:43:05.171+03:00  INFO 21564 --- [BankApp] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-27T10:43:05.266+03:00  INFO 21564 --- [BankApp] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-27T10:43:05.993+03:00  WARN 21564 --- [BankApp] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-27T10:43:07.454+03:00  INFO 21564 --- [BankApp] [main] c.r.stream.impl.StreamEnvironment        : Connecting to localhost with guest user, assuming development environment
+2024-05-27T10:43:07.455+03:00  INFO 21564 --- [BankApp] [main] c.r.stream.impl.StreamEnvironment        : Using address resolver to always connect to localhost
+2024-05-27T10:43:07.665+03:00  INFO 21564 --- [BankApp] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-05-27T10:43:07.777+03:00  INFO 21564 --- [BankApp] [main] com.coop.bank.BankAppApplicationTests    : Started BankAppApplicationTests in 8.538 seconds (process running for 10.473)
+2024-05-27T10:43:10.013+03:00  INFO 21564 --- [BankApp] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-27T10:43:10.017+03:00  INFO 21564 --- [BankApp] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-27T10:43:10.022+03:00  INFO 21564 --- [BankApp] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
